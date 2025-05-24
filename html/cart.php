@@ -36,19 +36,19 @@
 
   foreach ($cart as $item) {
     if ($item === 'book1') {
-      echo "<li>Ascendance of a Bookworm - \$15.56</li>";
+      echo "<li>Ascendance of a Bookworm - \$15.56</li><br>";
       $total += 15.56;
     }elseif ($item === 'book2') {
-      echo "<li>Blitz Volume 1 - \$16.20</li>";
+      echo "<li>Blitz Volume 1 - \$16.20</li><br>";
         $total += 16.20;
     }elseif ($item === 'book3') {
-      echo "<li>Keeper of the Lost Cities Volume 1 - \$8.52</li>";
+      echo "<li>Keeper of the Lost Cities Volume 1 - \$8.52</li><br>";
         $total += 8.52;
     }elseif ($item === 'book4') {
-      echo "<li>The SCP Foundation: Iris - \$12.26</li>";
+      echo "<li>The SCP Foundation: Iris - \$12.26</li><br>";
         $total += 12.26;
     }elseif ($item === 'book5') {
-      echo "<li>Dork Diaries< - \$5.30</li>";
+      echo "<li>Dork Diaries - \$5.30</li><br>";
         $total += 5.30;
     }
   }
