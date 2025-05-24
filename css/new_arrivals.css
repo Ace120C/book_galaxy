@@ -1,0 +1,58 @@
+* {
+    text-decoration: none;   
+ }
+body {
+  background-color: #191970;
+  margin: 0;
+}
+
+.navbar {
+  background: #CCBB42;
+  font-family: 'JetBrains Mono', monospace;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navdiv button {
+  display: flex;
+  width: 100px;
+  height: 35px;
+  background-color: gold;
+  margin-right: 30px;
+  border-radius: 10px;
+  font-family: Hack, hack, monospace;
+  font-size: 22px;
+}
+
+.navdiv button:hover {
+  background-color: brown;
+  font-family: Hack, hack, monospace;
+  color: black;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: #644117;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+h1 {
+  margin-top: 20%;
+  text-align: center;
+  color: #CCBB42;
+  font-family: Hack, hack, monospace;
+  font-size: 40px;
+}
+
