@@ -68,8 +68,12 @@
 
   </ul>
 
-  <h2>Total: $<?php echo number_format($total, 2); ?></h2>
 
+<h2>Total: $<?php echo number_format($total, 2); ?></h2>
+
+<form method="POST" action="checkout.php">
+  <button type="submit" name="checkout" style="margin-top: 20px;">Proceed to Checkout</button>
+</form>
   <form method="POST" action="remove.php">
     <input type="hidden" name="clear_cart" value="1">
     <button type="submit" class="deleteall">Clear Cart</button>
