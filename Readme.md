@@ -9,4 +9,4 @@
 - [x] about us page
 - [x] new arrivals page
 - [x] delete things from the cart
-- [ ] add a check out page
+- [x] add a check out page
